@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "maxim-firestarter": {
+      "hosting": {
+        "firestarter": [
+          "maxim-firestarter"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "maxim-firestarter"
+  }
+}
