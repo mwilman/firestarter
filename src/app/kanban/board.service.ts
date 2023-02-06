@@ -1,10 +1,11 @@
-import { Injectable } from '@angular/core';
+import {Injectable} from '@angular/core';
 import {AngularFireAuth} from "@angular/fire/compat/auth";
 import {AngularFirestore} from "@angular/fire/compat/firestore";
 import {Board} from "./board-list/board.model";
-import {Firestore} from "@angular/fire/firestore";
-import firebase from "$GLOBAL$";
 import {switchMap} from "rxjs";
+import firebase from 'firebase/compat/app';
+import 'firebase/compat/auth';
+import 'firebase/compat/firestore';
 
 @Injectable({
   providedIn: 'root'
